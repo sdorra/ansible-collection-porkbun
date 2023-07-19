@@ -8,6 +8,16 @@ This collection includes the following module:
 
 - `porkbun_record`: This module allows you to create, update, and delete DNS records on [porkbun](https://porkbun.com/).
 
+## Installation
+
+The collection can be installed with the `ansible-galaxy` tool.
+
+```bash
+ansible-galaxy collection install sdorra.porkbun
+```
+
+For more information have a look at the [ansible documentation](https://docs.ansible.com/ansible/latest/collections_guide/collections_installing.html#installing-collections)
+
 ## Using this collection
 
 You can use the modules in this collection in your playbooks as follows:
