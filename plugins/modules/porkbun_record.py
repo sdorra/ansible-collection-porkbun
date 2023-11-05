@@ -131,8 +131,9 @@ class PorkbunAPI:
 
     def get_record(self, domain, record_type, name):
         records = self.get_records(domain)
+        target_record_name = f'{name}.{domain}' if name else domain
         for record in records:
-            if record['type'] == record_type and record['name'] == name + "." + domain:
+            if record['type'] == record_type and record['name'] == target_record_name:
                 return record
         return None
 
