@@ -111,7 +111,7 @@ msg:
 
 
 class PorkbunAPI:
-    API_URL = "https://porkbun.com/api/json/v3/dns"
+    API_URL = "https://api.porkbun.com/api/json/v3/dns"
 
     def __init__(self, api_key, secret_api_key):
         self.headers = {
